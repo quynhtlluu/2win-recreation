@@ -17,3 +17,24 @@
 #ADACA4
 #adaca4
 */
+body {
+    margin: 0;
+    padding: 0;
+}
+.top-navigation-bar {
+    background-color: #393738;
+    height: 50px;
+    width: 100%;
+}
+.admin-username-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.website-logo {
+    position: absolute;
+    right: 0;
+}
+.main-interface {
+    background-color: #EBEBEB;
+}
