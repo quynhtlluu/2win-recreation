@@ -18,22 +18,38 @@
 #adaca4
 */
 body {
+    font: #FBFBFB;
+    font-family: 'Open Sans';
     margin: 0;
     padding: 0;
 }
 .top-navigation-bar {
     background-color: #393738;
-    height: 50px;
+    height: 100px;
     width: 100%;
+}
+.main-navigation-commands {
+    font: #FBFBFB;
 }
 .admin-username-button {
     position: absolute;
     top: 0;
     right: 0;
 }
+.shares-button
+.playlists-button
+.personal-videos-button {
+    color: inherit;
+}
+.main-navigation-commands {
+    position: fixed;
+    bottom: 87%;
+    left: 0px;
+}
 .website-logo {
     position: absolute;
-    right: 0;
+    bottom: 87%;
+    right: 0px;
 }
 .main-interface {
     background-color: #EBEBEB;
