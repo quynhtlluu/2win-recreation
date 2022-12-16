@@ -1,0 +1,93 @@
+/* colors to use
+#393738
+#EBEBEB
+#ebebeb
+#7C7D7D
+#7c7d7d
+#75645C
+#75645c
+#75746B
+#75746b
+#3BBAFA
+#3bbafa
+#BABBBB
+#babbbb
+#ACA29D
+#aca29d
+#ADACA4
+#adaca4
+*/
+body {
+    font: #FBFBFB;
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+.top-navigation-bar {
+    background-color: #393738;
+    height: 125px;
+    width: 100%;
+}
+.main-navigation-commands {
+    font: #FBFBFB;
+}
+.admin-username-button {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+.shares-button,
+.playlists-button,
+.personal-videos-button {
+    color: inherit;
+    margin-left: 20px;
+}
+.main-navigation-commands {
+    position: fixed;
+    bottom: 87%;
+    left: 0px;
+}
+.website-logo {
+    position: absolute;
+    bottom: 87%;
+    right: 20px;
+}
+.main-interface {
+    background-color: #EBEBEB;
+}
+h1 {
+
+}
+.tiles-display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-top: 30px;
+}
+.tile1 {
+    background-color: orange;
+    grid-area: 1 / 1 / 2 / 2; 
+}
+.tile2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.tile3 { 
+    grid-area: 1 / 3 / 2 / 4; 
+}
+.tile4 { 
+    grid-area: 1 / 4 / 2 / 5; 
+}
+.tile5 { 
+    grid-area: 2 / 1 / 3 / 2; 
+}
+.tile6 { 
+    grid-area: 2 / 2 / 3 / 3; 
+}
+.tile7 { 
+    grid-area: 2 / 3 / 3 / 4; 
+}
+.tile8 { 
+    grid-area: 2 / 4 / 3 / 5; 
+}
